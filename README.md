@@ -1,6 +1,6 @@
 ﻿
 
-**Guide to build a Simple Command-Line Calculator in Java.**
+## **Guide to build a Simple Command-Line Calculator in Java.**
 
 The instructions will describe step by step how to build a calculator in Java. The
 
@@ -30,7 +30,7 @@ posted on GitHub for potential employers to see.
 
 In these instructions, you will build a Calculator from scratch.
 
-**Warnings/Caution**
+## **Warnings/Caution**
 
 The code used to complete the project is not certified to be completely free of errors. You
 
@@ -44,7 +44,7 @@ the program with multiple test inputs.
 
 
 
-**Technical Background**
+## **Technical Background**
 
 \- The instructions assume the students have taken either CMSC131 or CMSC132. Any
 
@@ -58,7 +58,7 @@ a basic understanding of the command line, and how to compile and run java progr
 
 \- It also assumes the user knows how to use the ***vim*** utility available on Mac and Linux
 
-**Materials**
+## **Materials**
 
 You need a laptop or desktop with an Operating System installed. It could be Windows, Mac, or
 
@@ -68,11 +68,11 @@ Linux. Your laptop/desktop needs a Random-Access Memory (RAM) of at least 4 Giga
 
 laptops or desktops that were manufactured in the last 5 years should the job be perfectly fine.
 
-**Steps in building the calculator**
+## **Steps in building the calculator**
 
 The instructions will be subdivided into the following sections:
 
-**1. Download and the Java compiler Software.**
+### ** 1. Download and the Java compiler Software.**
 
 Visit the website [Oracle](https://www.oracle.com/java/technologies/downloads/)[ ](https://www.oracle.com/java/technologies/downloads/)[Java](https://www.oracle.com/java/technologies/downloads/)[ ](https://www.oracle.com/java/technologies/downloads/)[Compiler](https://www.oracle.com/java/technologies/downloads/). Based on the operating system installed on your
 
@@ -80,12 +80,7 @@ computer, choose the software that matches your operating system. Download it an
 
 somewhere on your pc. I downloaded and placed it in the ***/Users/franklin/java*** directory
 
-**2. Install the Java Compiler**
-
-
-
-
-
+### **2. Install the Java Compiler**
 Most often, the compiler is compressed into a zip file or any popular compression format.
 
 Extracting the compressed file into your computer allows you to start compiling java code
@@ -108,13 +103,13 @@ easily see it. Then just call the compiler whenever needed. This implies setting
 
 environment variable to contain the location of the compiler.
 
-**3. Set the PATH environment variable of your Operating system**
+### **3. Set the PATH environment variable of your Operating system**
 
 Setting the path environment variable helps tell the computer where your java compiler and java
 
 virtual machine software are located.
 
-**4. Setting the path on a MAC or Linux**
+### **4. Setting the path on a MAC or Linux**
 
 A file called ***.bash\_profile*** located in every logged-in user’s directory stores the content of the
 
@@ -127,9 +122,6 @@ Open the command line and type the following command:
 ***vim $HOME/.bash\_profile***
 
 This command tells the computer to tell the ***vim*** software open the ***.bash\_profile.***
-
-
-
 
 
 The ***$HOME*** is to check the location placed in the ***HOME*** environment variable. Placing a ***$***
@@ -204,7 +196,7 @@ If you did not get the above, then the path variable was not set correctly. Repe
 
 carefully.
 
-**5. Install the Java Virtual Machine(JVM) Software**
+### **5. Install the Java Virtual Machine(JVM) Software**
 
 
 
@@ -236,7 +228,7 @@ If the JVM was not installed, then follow the instructions here at
 
 <https://www.java.com/en/download/help/mac_install.html>
 
-**6. Choose and Install a Source code Editor**
+### **6. Choose and Install a Source code Editor**
 
 
 
